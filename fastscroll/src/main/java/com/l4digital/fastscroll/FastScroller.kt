@@ -395,7 +395,7 @@ class FastScroller : LinearLayout {
 
         handleImage?.let {
             it.setCompatTint(handleColor)
-            handleView.setImageDrawable(it)
+            handleView.setImageResource(R.drawable.scroll)
         }
     }
 
